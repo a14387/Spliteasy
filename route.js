@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const transactionSchema = new mongoose.Schema({
     
     "team": String,
-    "google" : [String],
+    "google" : String,
     "names": Array,
     "moneyowed": Array,
     "moneygiven":Array,
